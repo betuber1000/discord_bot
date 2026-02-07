@@ -5,14 +5,12 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
-#UL HIER JE BOT TOKEN IN
 
-import os
+# VUL HIER JE BOT TOKEN IN
+TOKEN = "MTQ2OTcwODAzODYxNjI1NjYxNQ.GQg3Hf.3xtxLDEF6ocSXpn2nMhCqNsAkrLgOUy4yFH9kQ"  # <-- hier komt je Discord bot token
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID"))
-
-
+# Jouw Discord ID (owner)
+OWNER_ID = 1260264286614196326
 
 # Jouw main Discord server link
 MAIN_DISCORD_LINK = "https://discord.gg/q6X4ceFW"
