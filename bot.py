@@ -7,7 +7,7 @@ from discord.ext import commands
 from discord import app_commands
 
 # VUL HIER JE BOT TOKEN IN
-TOKEN = "DISCORD_TOKEN"  # <-- hier komt je Discord bot token
+TOKEN = "TOKEN"  # <-- hier komt je Discord bot token
 
 # Jouw Discord ID (owner)
 OWNER_ID = 1260264286614196326
